@@ -1,0 +1,3 @@
+ListWorker采用分段式处理模式，将list均分给所有线程进行处理
+
+ListWorkerPlus采用抢占式处理模式，所有线程将同时去处理list（抢占过程cpu分配顺序）
